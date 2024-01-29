@@ -1,0 +1,58 @@
+
+body{
+   
+    color: #fff;
+}
+
+
+.navbar{
+    border-bottom: 3px solid #008ed6;
+    background: #292b2c;
+    opacity: 0.7;
+}
+.nav-item{
+    font-size:1.4rem;
+    padding-right: 20px;
+      
+   } 
+   /*Home  */
+   #home-section{
+    background: url(imag/home.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;}
+
+
+@media(max-width:768px){
+    #home-section h1{
+      font-size: 36px;  
+    }
+}
+
+
+    .dark-overlay{
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 700px;
+    }
+    .icon{
+        background-color: #fff;
+        color: #008ed6;
+        padding: 5px;
+       font-size: 30px;
+       border-radius: 5px;
+    
+    }
+
+    /* Expiore */
+    .brand{
+        background-color: #292b2c;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 30px;
+    }
+
+
+    /* Footer */
+    .inbox{
+        background-color: #515556;
+    }
